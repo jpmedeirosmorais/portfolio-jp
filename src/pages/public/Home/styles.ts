@@ -1,3 +1,15 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const Content = styled.div``;
+export const Content = styled.div`
+  padding: 2rem 0 2rem 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`;
+
+export const BannerContent = styled.div`
+  text-align: center;
+  margin-bottom: 13rem;
+`;

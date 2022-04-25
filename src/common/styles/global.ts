@@ -34,6 +34,4 @@ export default createGlobalStyle`
   }
 `;
 
-export const Body = styled.div`
-  
-`;
+export const Body = styled.div``;
