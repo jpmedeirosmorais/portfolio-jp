@@ -35,5 +35,5 @@ export default createGlobalStyle`
 `;
 
 export const Body = styled.div`
-  padding-left: 20rem;
+  
 `;

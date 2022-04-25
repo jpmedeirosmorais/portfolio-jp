@@ -1,8 +1,9 @@
+import { Layout } from "containers/Layout/Layout";
+
 export const About = () => {
   return (
-    <div>
+    <Layout>
       <h1>About</h1>
-      <p>This is the about page.</p>
-    </div>
+    </Layout>
   );
 };

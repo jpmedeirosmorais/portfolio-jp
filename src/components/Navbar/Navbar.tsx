@@ -1,6 +1,8 @@
 import * as S from "./styles";
-import { IconJP } from "../../common/assets/svg";
+import { IconJP } from "common/assets/svg";
 import { NavbarProps } from "./interfaces";
+import { Link } from "react-router-dom";
+
 
 export const Navbar = ({ items }: NavbarProps) => {
   const url = window.location.pathname;
@@ -14,7 +16,7 @@ export const Navbar = ({ items }: NavbarProps) => {
       <S.Items>
         {items.map((item, key) => (
           <S.Item isGreen={url === item.link} key={key}>
-            <a href={item.link}> {item.name} </a>
+            <Link to={item.link}> {item.name} </Link>
           </S.Item>
         ))}
       </S.Items>

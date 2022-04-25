@@ -1,3 +1,7 @@
+import { Layout } from "containers/Layout/Layout";
+
 export const Home = () => {
-  return <h1>home</h1>;
+  return <Layout>
+    <h1>Home</h1>
+  </Layout>;
 };
