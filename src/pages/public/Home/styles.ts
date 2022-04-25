@@ -12,4 +12,10 @@ export const Content = styled.div`
 export const BannerContent = styled.div`
   text-align: center;
   margin-bottom: 13rem;
+
+  @media (max-width: 930px) {
+    img {
+      width: calc(100vw - 25rem);
+    }
+  }
 `;

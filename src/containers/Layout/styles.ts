@@ -8,4 +8,5 @@ export const Content = styled.div`
 
 export const Body = styled.div`
   margin-left: 20rem;
+
 `;
