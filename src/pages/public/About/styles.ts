@@ -1,7 +1,5 @@
 import { Colors } from "common/styles";
-import { profile } from "console";
 import styled, { css } from "styled-components";
-import { ProfileImg } from "../Home/components/Apresentation/styles";
 import { CardProps } from "./interfaces";
 
 export const Content = styled.div`
