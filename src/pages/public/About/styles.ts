@@ -50,15 +50,20 @@ export const ProfileContainer = styled.div`
   align-items: center;
   justify-content: center;
   @media (max-width: 1140px) {
-      width: 90%;
-    }
-    @media (min-width: 1800px) {
-      width: 32%;
-    }
+    width: 90%;
+  }
+  @media (min-width: 1800px) {
+    width: 32%;
+  }
 `;
 
 export const ProfileImage = styled.img`
   width: 30rem;
   height: 30rem;
   border-radius: 50%;
+`;
+
+export const ContactContainer = styled.div`
+  width: 100%;
+  padding: 8rem;
 `;

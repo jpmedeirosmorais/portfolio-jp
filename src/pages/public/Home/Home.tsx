@@ -5,7 +5,6 @@ import { items } from "common/utils/itemsContact";
 import * as S from "./styles";
 import { Apresentation } from "./components";
 
-
 export const Home = () => {
   return <Layout>
     <S.Content>

@@ -1,6 +1,8 @@
 import { Layout } from "containers/Layout/Layout";
 import * as S from "./styles"
 import { AboutProps } from "./interfaces";
+import { Contact } from "components";
+import { items as itemsContact } from "common/utils/utils";
 
 
 export const About = ({ items }: AboutProps) => {
@@ -16,6 +18,9 @@ export const About = ({ items }: AboutProps) => {
             <S.Text>{item.content}</S.Text>
           </S.Card>
         ))}
+        <S.ContactContainer>
+        <Contact items={itemsContact} />
+        </S.ContactContainer>
       </S.Content>
     </Layout>
   );
